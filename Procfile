@@ -1,1 +1,1 @@
-web: gunicorn app:telegate
+web: gunicorn wsgi:app
